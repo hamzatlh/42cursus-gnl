@@ -1,21 +1,22 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   get_next_line.h                                    :+:      :+:    :+:   */
+/*   get_next_line_bonus.h                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: htalhaou <htalhaou@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/10/27 13:13:56 by htalhaou          #+#    #+#             */
-/*   Updated: 2022/11/05 18:15:44 by htalhaou         ###   ########.fr       */
+/*   Created: 2022/11/05 17:47:07 by htalhaou          #+#    #+#             */
+/*   Updated: 2022/11/05 18:15:24 by htalhaou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef GET_NEXT_LINE_H
-# define GET_NEXT_LINE_H
+#ifndef GET_NEXT_LINE_BONUS_H
+# define GET_NEXT_LINE_BONUS_H
 
 # include<unistd.h>
 # include<stdio.h>
 # include<stdlib.h>
+# include<limits.h>
 # include <fcntl.h>
 
 char	*get_next_line(int fd);
